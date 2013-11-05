@@ -1,4 +1,5 @@
 // Ported to cheerio from https://gist.github.com/cowboy/958000
+// TODO: easily support node APIs besides cheerio API
 exports.walk = function (node, callback) {
     var skip, tmp;
     var depth = 0;
